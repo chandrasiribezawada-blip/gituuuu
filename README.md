@@ -281,3 +281,85 @@ are generated.
 #  Author
 
 Developed as an AI-powered interview preparation system using modern LLM and RAG technologies.
+```text
++----------------------+
+| Start Application    |
++----------+-----------+
+           |
+           v
++----------------------+
+| Upload Resume PDFs   |
++----------+-----------+
+           |
+           v
++----------------------+
+| PDF Processing       |
+| (PyPDFLoader)        |
++----------+-----------+
+           |
+           v
++----------------------+
+| Text Chunking        |
+| Recursive Splitter   |
++----------+-----------+
+           |
+           v
++----------------------+
+| Generate Embeddings  |
+| HuggingFace Model    |
++----------+-----------+
+           |
+           v
++----------------------+
+| Store in FAISS DB    |
++----------+-----------+
+           |
+           v
++----------------------+
+| Resume Analysis      |
++----------+-----------+
+           |
+           v
++----------------------+
+| Start Interview      |
++----------+-----------+
+           |
+           v
++----------------------+
+| Generate Question    |
+| using RAG + LLM      |
++----------+-----------+
+           |
+           v
++----------------------+
+| Candidate Answers    |
++----------+-----------+
+           |
+           v
++----------------------+
+| AI Evaluation        |
++----------+-----------+
+           |
+           v
++----------------------+
+| Store Conversation   |
+| in Memory            |
++----------+-----------+
+           |
+           v
++----------------------+
+| Generate Follow-Up   |
+| Question             |
++----------+-----------+
+           |
+           v
++----------------------+
+| Interview Complete   |
++----------+-----------+
+           |
+           v
++----------------------+
+| Generate Final       |
+| Performance Report   |
++----------------------+
+```
