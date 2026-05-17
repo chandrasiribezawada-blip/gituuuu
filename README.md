@@ -363,3 +363,32 @@ Developed as an AI-powered interview preparation system using modern LLM and RAG
 | Performance Report   |
 +----------------------+
 ```
+start application
+
+upload resume pdfs
+
+pdf processing
+
+text chunking recursive splitter
+
+generate embeddings hugging face model
+
+store in FAISS DB
+
+resume analysis
+
+start interview
+
+Generate Question   using RAG + LLM
+
+candidate answers
+
+ai evaluation
+
+store conversation in memory
+
+generate follow up question
+
+Interview complete
+
+generate Final Performance report
